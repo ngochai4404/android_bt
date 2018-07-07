@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hai.bt">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.LayoutActivity" />
+        <activity android:name=".activity.LinearLayoutActivity" />
+        <activity android:name=".activity.TableLayoutActivity" />
+        <activity android:name=".activity.RelativeActivity" />
+        <activity android:name=".activity.WigetEventActivity" />
+        <activity android:name=".activity.ButtonSimilarActivity" />
+        <activity android:name=".activity.LocalizationActivity" />
+        <activity android:name=".activity.RotationActivity" />
+        <activity android:name=".activity.NetworkActivity" />
+        <activity android:name=".activity.RequestGsonActivity" />
+        <activity android:name=".activity.LoanCaculatorActivity" />
+        <activity android:name=".activity.CustomActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">bt</string>
+    <!--home-->
+    <string name="layout">Layout</string>
+    <!--layout-->
+    <string name="linear_layout">LinearLayout</string>
+    <string name="table_layout">TableLayout</string>
+    <string name="relative_layout">RelativeLayout</string>
+    <!--linearlayout-->
+    <string name="color_red">Red</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_yellow">Yellow</string>
+    <string name="set_color">Set color</string>
+    <string name="cancel">Cancel</string>
+
+    <!--ralativeLayout-->
+    <string name="btn1">1</string>
+    <string name="btn2">2</string>
+    <string name="btn3">3</string>
+    <string name="btn4">4</string>
+    <string name="btn5">5</string>
+    <!--widget event-->
+    <string name="wiget_event">widget_event</string>
+    <string name="hello">Hello</string>
+    <string name="goodbye">Goodbye</string>
+    <string name="class_approach"> Class approach</string>
+    <string name="inner_class_approach">Inner class approach</string>
+    <!--button or similar-->
+    <string name="button_similar">Button - similar</string>
+    <string name="power_ranger">Power ranger</string>
+    <string name="not_red">Not Red</string>
+    <string name="not_blue">Not Blue</string>
+    <string name="not_yellow">Not Yellow</string>
+    <!--localization-->
+    <string name="localization">Localization</string>
+    <string name="have_fun">Have fun</string>
+    <string name="click_here">Click here</string>
+    <string name="suprise">Suprise</string>
+    <string name="do_something">Do something</string>
+    <!--rotate-->
+    <string name="rotation">Rotation</string>
+    <string name="add_text">Add text</string>
+    <string name="text">text</string>
+    <!--url-->
+    <string name="url">URL</string>
+    <string name="url_google">https://www.google.com.vn/</string>
+    <string name="count_line">Count Line</string>
+    <string name="count_character">Count character</string>
+    <string name="request">Request</string>
+    <string name="request_get">Get</string>
+    <string name="request_get_param">Get with param</string>
+    <string name="amount">amount</string>
+    <string name="rate1">Rate1</string>
+    <string name="rate2">Rate2</string>
+    <string name="month">Month</string>
+    <string name="result">Result</string>
+    <string name="caculator">Caculator</string>
+
+    <!--custom-->
+    <string name="custom">Custom</string>
+</resources>

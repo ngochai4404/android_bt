@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">bt</string>
+    <string name="have_fun" >Vui vẻ</string>
+    <string name="do_something" >Làm gì đó</string>
+    <string name="click_here" >Nhấn vào đây</string>
+    <string name="suprise" >Ngạc nhiên</string>
+</resources>

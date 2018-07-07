@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:stretchColumns="2"
+    android:layout_height="match_parent" >
+
+    <TableRow >
+        <Button
+            android:id="@+id/btn_red"
+            android:onClick="setBgRed"
+            android:textColor="@color/colorRed"
+            android:text="@string/color_red"
+            android:layout_margin="4dp"/>
+        <Button
+            android:id="@+id/btn_blue"
+            android:onClick="setBgBlue"
+            android:textColor="@color/colorBlue"
+            android:text="@string/color_blue"
+            android:layout_margin="4dp"/>
+        <Button
+            android:id="@+id/btn_yellow"
+            android:onClick="setBgYellow"
+            android:textColor="@color/colorYellow"
+            android:text="@string/color_yellow"
+            android:layout_margin="4dp"/>
+    </TableRow>
+    <TextView
+        android:id="@+id/tv_color"
+        android:background="@android:color/black"/>
+    <TableRow >
+        <Button
+            android:id="@+id/btn_clear"
+            android:onClick="cancel"
+            android:layout_column="2"
+            android:text="@string/cancel"
+            android:layout_margin="4dp"/>
+    </TableRow>
+</TableLayout>
